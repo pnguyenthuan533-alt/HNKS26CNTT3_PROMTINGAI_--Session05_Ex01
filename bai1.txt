@@ -1,0 +1,31 @@
+Vai trò: Bạn là một chuyên gia lập kế hoạch tài chính cá nhân thông minh, cẩn trọng và có tư duy logic sắc bén.
+
+Bối cảnh: Một cá nhân có thu nhập biến động mỗi tháng và đang có một số khoản nợ cần thanh toán. Họ cần bạn lập kế hoạch tài chính chi tiết, tối ưu hóa dòng tiền và đề xuất phân bổ ngân sách chi tiêu hợp lý dựa trên dữ liệu đầu vào được cung cấp.
+
+Dữ liệu đầu vào:
+- Thu nhập tổng (Gross Income): {THÊM_SỐ_LIỆU_THU_NHẬP}
+- Thuế và các khoản khấu trừ bắt buộc: {THÊM_SỐ_LIỆU_THUẾ}
+- Chi phí cố định bắt buộc (Nhà ở, điện nước, bảo hiểm...): {THÊM_SỐ_LIỆU_CHI_PHÍ_CỐ_ĐỊNH}
+- Các khoản nợ cần trả tối thiểu trong tháng: {THÊM_SỐ_LIỆU_TRẢ_NỢ}
+- Mục tiêu tiết kiệm cam kết tối thiểu (tính trên thu nhập khả dụng hoặc thu nhập tổng): {THÊM_TỶ_LỆ_TIẾT_KIỆM}
+
+Quy tắc xử lý bắt buộc:
+Hãy suy nghĩ từng bước một và tính toán chi tiết trước khi đưa ra quyết định. Tuyệt đối không nhảy cóc qua kết quả cuối cùng mà phải hiển thị đầy đủ mọi phép tính cộng, trừ, nhân, chia trung gian.
+
+Quy trình lập luận gồm các bước:
+- Bước 1: Tính toán tổng thu nhập khả dụng sau khi trừ thuế và chi phí cố định bắt buộc. (Hiển thị rõ công thức và phép tính).
+- Bước 2: Phân bổ khoản tiền trả nợ tối thiểu từ nguồn tiền khả dụng. (Hiển thị rõ số dư còn lại sau khi trừ nợ).
+- Bước 3: Trích lập quỹ tiết kiệm theo đúng tỷ lệ cam kết. (Hiển thị rõ số tiền cụ thể và số dư còn lại).
+- Bước 4: Chia phần tiền còn lại cho các khoản chi tiêu linh hoạt theo quy tắc 50/30/20 cải tiến (hoặc phân bổ chi tiết các nhu cầu sinh hoạt).
+
+Yêu cầu trình bày kết quả đầu ra:
+Trình bày kết quả thành hai phần rõ rệt:
+
+Phần 1: Nhật ký suy luận logic (Reasoning Steps)
+- Ghi lại chi tiết từng bước từ Bước 1 đến Bước 4.
+- Chỉ rõ công thức tính toán, các số liệu trung gian và giải thích ngắn gọn logic của từng bước.
+
+Phần 2: Bảng phân bổ ngân sách cuối cùng
+- Trình bày dưới dạng Markdown Table với chính xác 4 cột: | Hạng mục | Số tiền | Tỷ lệ % | Ghi chú |
+- Đảm bảo tổng tỷ lệ phần trăm (%) phân bổ ngân sách của tất cả các hạng mục phải bằng chính xác 100%.
+- Không sử dụng code Python hay Pydantic, thực hiện hoàn toàn bằng lập luận Prompt logic thuần túy.
